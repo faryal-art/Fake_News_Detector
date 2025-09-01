@@ -72,16 +72,18 @@ This repository contains **two versions of the app**:
 ---
 
 ## Project Structure 📂
+
+```text
 Fake_News_Detector/
 │
-├─ app.py # TF-IDF + Gradient Boosting Streamlit app
-├─ app2.py # Transformer-based Streamlit app
-├─ model.pkl # Gradient Boosting trained model
-├─ vectorizer.pkl # TF-IDF vectorizer
-├─ requirements.txt # Required packages
-├─ README.md # Project documentation
-└─ datasets/ # Optional: original CSV files
-
+├─ app.py                 # TF-IDF + Gradient Boosting Streamlit app
+├─ app2.py                # Transformer-based Streamlit app
+├─ model.pkl              # Gradient Boosting trained model
+├─ vectorizer.pkl         # TF-IDF vectorizer
+├─ requirements.txt       # Required packages
+├─ README.md              # Project documentation
+└─ datasets/              # Optional: original CSV files
+```
 
 ---
 
